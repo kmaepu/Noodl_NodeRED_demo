@@ -1,0 +1,304 @@
+{
+    "name": "Wether_demo",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "8f729d1c-f05e-ddde-e351-1c7034d97222",
+                        "fromProperty": "formatted",
+                        "toId": "3c8ec158-a553-02c0-458b-a6476c71daf5",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "f9cd9b67-6ed7-7399-67af-c4d9333cf35f",
+                        "fromProperty": "formatted",
+                        "toId": "b2908289-ad44-57b2-b56d-2b096ac9207f",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "4cb2e457-0da4-578e-b72e-93ba6c50ea3b",
+                        "fromProperty": "temp",
+                        "toId": "8f729d1c-f05e-ddde-e351-1c7034d97222",
+                        "toProperty": "data"
+                    },
+                    {
+                        "fromId": "4cb2e457-0da4-578e-b72e-93ba6c50ea3b",
+                        "fromProperty": "humid",
+                        "toId": "f9cd9b67-6ed7-7399-67af-c4d9333cf35f",
+                        "toProperty": "data"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+                        "type": "Group",
+                        "label": "Root",
+                        "x": 264,
+                        "y": 278,
+                        "parameters": {
+                            "fill": "parent"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "a92890f8-6359-ed23-d97e-2756c7e7a502",
+                                "type": "Image",
+                                "version": 2,
+                                "x": 20,
+                                "y": 61,
+                                "parameters": {
+                                    "image": "背景.jpg",
+                                    "sizeMode": "explicit",
+                                    "fillMode": "fill",
+                                    "alignX": "center",
+                                    "alignY": "center"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "c9d778dd-f46d-37e4-eaa9-a653ae274723",
+                                "type": "Stack Layout",
+                                "x": 20,
+                                "y": 122,
+                                "parameters": {
+                                    "itemSpacing": 50,
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "width": {
+                                        "value": 40,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 10,
+                                        "unit": "%"
+                                    },
+                                    "x": -100,
+                                    "y": 100
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "189062e3-73dc-05ee-617c-55a3c2f1cc31",
+                                        "type": "Text",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "alignX": "center",
+                                            "alignY": "bottom",
+                                            "text": "OKINAWA",
+                                            "fontSize": 150,
+                                            "color": "#000000",
+                                            "sizeMode": "childSize"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "a6b48c28-7d41-87c5-0c47-13b56a40bf7c",
+                                        "type": "Group",
+                                        "version": 2,
+                                        "x": 20,
+                                        "y": 107,
+                                        "parameters": {
+                                            "sizeMode": "childHeight"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "44d123c5-4c9e-08b5-ce44-3b73e5d88915",
+                                                "type": "Rectangle",
+                                                "x": 20,
+                                                "y": 46,
+                                                "parameters": {
+                                                    "opacity": 0.5,
+                                                    "cornerRadius": 100
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "3c8ec158-a553-02c0-458b-a6476c71daf5",
+                                                "type": "Text",
+                                                "version": 2,
+                                                "x": 20,
+                                                "y": 92,
+                                                "parameters": {
+                                                    "color": "#FFFB00",
+                                                    "alignX": "center",
+                                                    "alignY": "center",
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "fontSize": 100,
+                                                    "text": "**℃",
+                                                    "fontFamily": "Lucida Console"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "07799331-3816-123c-f692-3d1ff81d96d1",
+                                        "type": "Group",
+                                        "version": 2,
+                                        "x": 20,
+                                        "y": 235,
+                                        "parameters": {
+                                            "sizeMode": "childHeight"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": [
+                                            {
+                                                "id": "b42f70b8-bacd-6ca8-09c5-c031e78db88e",
+                                                "type": "Rectangle",
+                                                "x": 382,
+                                                "y": 760,
+                                                "parameters": {
+                                                    "opacity": 0.5,
+                                                    "cornerRadius": 100
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "b2908289-ad44-57b2-b56d-2b096ac9207f",
+                                                "type": "Text",
+                                                "version": 2,
+                                                "x": 20,
+                                                "y": 92,
+                                                "parameters": {
+                                                    "color": "#FFFB00",
+                                                    "alignX": "center",
+                                                    "alignY": "center",
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "fontSize": 100,
+                                                    "text": "**%",
+                                                    "fontFamily": "Lucida Console"
+                                                },
+                                                "ports": [],
+                                                "dynamicports": [],
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "bb35e833-2ce7-5142-01ee-c672505f3f1c",
+                                "type": "Text",
+                                "version": 2,
+                                "x": 351.9875859730597,
+                                "y": 325.9674302570759,
+                                "parameters": {
+                                    "text": "OpenWeatherMap",
+                                    "color": "#FFFB00",
+                                    "alignX": "right",
+                                    "alignY": "bottom",
+                                    "fontSize": 100
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8f729d1c-f05e-ddde-e351-1c7034d97222",
+                        "type": "String Format",
+                        "x": 101,
+                        "y": 610,
+                        "parameters": {
+                            "format": "{data}℃"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "data",
+                                "type": "*",
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "4cb2e457-0da4-578e-b72e-93ba6c50ea3b",
+                        "type": "Receive Message",
+                        "x": 94,
+                        "y": 448,
+                        "parameters": {
+                            "topic": "/Noodl",
+                            "enabled": true
+                        },
+                        "ports": [
+                            {
+                                "name": "temp",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            },
+                            {
+                                "name": "humid",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "f9cd9b67-6ed7-7399-67af-c4d9333cf35f",
+                        "type": "String Format",
+                        "x": 106.28367722557198,
+                        "y": 768.3697210283036,
+                        "parameters": {
+                            "format": "{data}%"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "data",
+                                "type": "*",
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+        "devices": "Default Device",
+        "Default Device.fillMode": "aspectFit",
+        "Default Device.canvasWidth": 1080,
+        "Default Device.canvasHeight": 1920,
+        "mqttUseExternalBroker": true,
+        "mqttBrokerUrl": ""
+    },
+    "rootNodeId": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+    "version": "1"
+}
