@@ -30,7 +30,9 @@ Noodlについては[こちら](https://tensorx.co.jp/noodl-jp/)を参照。
     ![Noodl プロジェクトインポート](https://github.com/kmaepu/Noodl_NodeRED_demo/blob/master/image/Noodl_プロジェクトインポート.JPG)
 4. 外部MQTTサーバを用意  
   　Node-REDのMQTT brokerノードやmosquitto、shiftr.ioなどのMQTT brokerを用意。  
-5. Node-REDのサンプルフローにあるMQTT inノードとMQTT outノードのサーバ設定に、MQTT brokerのURL等を入力する  
+5. Node-REDのサンプルフローにあるMQTT outノードのサーバ設定に、MQTT brokerのURL等を入力する  
+　  
+ ![Node-RED MQTT outノード設定](https://github.com/kmaepu/Noodl_NodeRED_demo/blob/master/image/NodeRED%20MQTT設定.JPG)
 6. Noodlの「Project settings」にあるMQTT External Brokerにチェックを入れ、Broker URLに使用するMQTT brokerのURLを入力する   
 
 # ライセンス
