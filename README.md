@@ -16,7 +16,7 @@ Noodlについては[こちら](https://tensorx.co.jp/noodl-jp/)を参照。
  
 # 使い方
 1. このリポジトリをclone or ダウンロードでサンプルコードを入手  
-2. 入手したフォルダ内のNode-REDフォルダにある「flows_sample.json」を、Node-REDのフローの読み込みからインポート  
+2. 入手したフォルダ内のNode-REDフォルダにある「flows_sample.json」を、Node-REDの読み込みからインポート  
 3. Noodlを起動し、入手したフォルダのNoodlフォルダにある「Wether_demo」をインポート  
   　ver1.3.1の場合、アカウント認証後画面の「Add external project」からインポートします。  
   　ver1.4.0の場合、アカウント認証後画面の「CREATE NEW PROJECT」-> 「Add external project」からインポートします。  
